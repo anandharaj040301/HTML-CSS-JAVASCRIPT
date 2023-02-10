@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JavaScript</title>
+        <script type="text/JavaScript">
+            function calc() {
+                var a,b;
+                a=parseInt(document.getElementById("a").value);
+                b=parseInt(document.getElementById("b").value);
+                if(a>b) {
+                document.write(a+" is greater than "+b); 
+
+            } 
+            else{
+                document.write(b+" is greater than "+a);
+            }
+                
+                
+                
+            }
+
+        </script>
+
+    </head>
+    <body> <center>
+        <h1>Calculation</h1><br>
+        Enter Number 1: <input type="number" id="a"><br><br>
+        Enter Number 2: <input type="number" id="b"><br><br>
+         
+
+        <input type="button" Value="Click" onclick="calc()"/>
+</center>    
+    </body>
+</html>

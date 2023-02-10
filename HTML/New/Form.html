@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            form
+        </title>
+        <style>
+            body{
+                background-image: url(2.jfif);
+                background-repeat:no-repeat;
+                background-size:cover;
+                background-position: center;
+                background-attachment: fixed;
+                height: 100%;
+                
+
+            }
+        </style>
+    </head>
+    <body>
+                <br>
+        <br>
+            <br>
+        <br>
+        <center><form action="Final.html">
+            <table  frame="box" bordercolor="white" cellspacing="3" cellpadding="5">
+                <tr align="center">
+                    <th align="center" colspan="2"><font face="Edwardian Script ITC" color="blue" size="30"><p>Student Registration&nbsp;</p></font></th>
+                </tr>
+                <tr >
+                    <td><label for="SName" >Student Name :</label></td>
+                    <td align="center"><input type="text" id="SName" placeholder="Student Name" maxlength="20" required size="30"></td>
+                </tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+                <tr >
+                    <td><label for="FName" >Father Name :</label></td>
+                    <td align="center"><input type="text" id="FName" placeholder="Father Name" required size="30"></td>
+                </tr><tr></tr><tr></tr><tr></tr><tr></tr>
+                <tr>
+                <td><label for="MName" >Mother Name :</label></td>
+                    <td align="center"><input type="text" id="MName" placeholder="Mother Name" required size="30"></td>
+                </tr><tr></tr><tr></tr><tr></tr><tr></tr>
+                <td><label for="Photo" >Student Image :</label></td>
+                    <td align="center"><input type="file" id="Photo" required></td>
+                </tr><tr></tr><tr></tr><tr></tr><tr></tr>
+                <tr>
+                <td><label for="dob" >Date Of Birth :</label></td>
+                    <td align="center"><input type="date" id="dob" size="30" required></td>
+                </tr><tr></tr><tr></tr><tr></tr><tr></tr>
+                <tr>
+                    <td><label for="Gen" >Gender :</label></td>
+                        <td align="center"><input type="radio" id="male" value="male" name="Gender">
+                        <label for="male">Male</label>
+                        <input type="radio" id="female" value="female" name="Gender">
+                        <label for="female">Female</label>
+                        <input type="radio" id="trans" value="Transgender" name="Gender">
+                        <label for="trans">Transgender</label>
+                    </tr><tr></tr><tr></tr><tr></tr><tr></tr>
+                <tr>
+                <td><label for="Email" >Email :</label></td>
+                    <td align="center"><input type="email" id="Email" placeholder="Email" size="30"></td>
+                </tr><tr></tr><tr></tr><tr></tr><tr></tr>
+                <tr>
+                <td><label for="UName" >Username :</label></td>
+                <td align="center"><input type="text" id="UName" placeholder="Username" size="30"></td>
+                </tr><tr></tr><tr></tr><tr></tr><tr></tr>
+                <tr>
+                    <td><label for="Pass" >Password :</label></td>
+                    <td align="center"><input type="password" id="Pass" placeholder="Password" size="30"></td>
+                </tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+                <tr>
+                    <td><label for="CPass" >Confirm Password :</label></td>
+                    <td align="center"><input type="text" id="CPass" placeholder="Confirm" size="30"></td>
+                </tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+                <tr>
+                    <td><label for="Add" >Address :</label></td>
+                    <td align="center"><textarea id="Add" rows="4" cols="30"></textarea></td>
+                    </tr><tr></tr><tr></tr><tr></tr><tr></tr>
+                    <tr>
+                        <td><label for="Dept" >Degree :</label></td>
+                        <td align="center"><input type="text" id="Dept" placeholder="eg. BCA,MCA,B.sc,BTech,etc" size="30"></td>
+                    </tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+                    <tr>
+                        <td><label for="mode" >Mode Of Study :</label></td>
+                        <td align="center"><select width="50" name="Mode" id="Mode">
+                            <option value="Select">---Select Option---</option>
+                            <option value="Online">Online</option>
+                            <option value="Offline">Offline</option>
+                        </select></td>
+                    </tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+                    <tr>
+                        <td><label for="dev" >Developer type :</label></td>
+                        <td align="center"><select width="50" name="dev" id="dev">
+                            <option value="0">---Select Option---</option>
+                            <option value="1">Frontend</option>
+                            <option value="2">Backend</option>
+                            <option value="3">Full Stack</option>
+                        </select></td>
+                    </tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+                    <tr>
+                        <td colspan="2"><input type="checkbox" id="dec" value="declaration">
+                        <label for="dec"><font color="red"><b>The information mentioned herein is true and correct to the best of my beliefs.</b></font></label></td>
+                    </tr>
+            <tr align="center">
+                 <td colspan="2"><pre><input type="submit" id="submit" value="submit">    <input type="reset" id="Reset" value="Reset" ></pre></td>
+            
+
+            </table>
+        </form></center>
+    </body>
+    </html>
