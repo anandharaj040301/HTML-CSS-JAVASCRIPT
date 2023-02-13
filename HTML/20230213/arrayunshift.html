@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head><title>Javascript Arrays</title>
+<script type="text/javascript">
+function arrayfunc()
+{
+var  fruits;
+console.log("Before Loop");
+fruits=["Banana","Apple","Mango","pineapple","Papaya"];
+fruits.unshift("watermelon");
+ var i; 
+
+for(var fruit of fruits){
+  document.write(fruit +"<br>");  
+
+}
+}
+</script>
+</head>
+<body>
+<p> HTML page</p><br>
+<input type="button" value="click" onclick="arrayfunc()"/>
+</body>
+</html>
