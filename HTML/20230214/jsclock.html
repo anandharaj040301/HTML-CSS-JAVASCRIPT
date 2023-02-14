@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head><title>Javascript functions</title>
+<script type="text/javascript">
+function JSClock(){
+var time=new Date();
+document.write("Time = " +time +"<br>")
+var hour=time.getHours();
+document.write("Hour = " +hour +"<br>")
+var minute=time.getMinutes();
+document.write("Minute = " +minute +"<br>")
+var second=time.getSeconds();
+document.write("Seconds = " +second +"<br>")
+var temp=""+((hour>12)?hour-12:hour);
+document.write("Temp = " +temp +"<br>")
+if (hour==0)   
+temp="12";
+temp+=((minute<10)?":0":":")+minute;
+document.write("Temp = " +temp +"<br>")
+temp+=((second<10)?":0":":")+second;
+document.write("Temp = " +temp +"<br>")
+temp+=((hour>=12)?"PM":"AM");
+document.write("Temp = " +temp +"<br>")
+  document.write(temp);
+}
+</script>
+</head>
+<body>
+<input type="button" value="click" onclick="JSClock()"/>
+</body>
+</html>
